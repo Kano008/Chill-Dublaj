@@ -1,17 +1,47 @@
-<!DOCTYPE html> 
-<html> 
-  <head> 
-    <title>Welcome Page</title> 
-  </head> 
-  <body> 
-    <header> 
-      <h1>Welcome</h1> 
-    </header> 
-    <main> 
-      <p>Hello, it's great to see you here!</p> 
-    </main> 
-    <footer> 
-      <p>Copyright © 2023</p> 
-    </footer> 
-  </body> 
-</html> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hoşgeldin Sayfası</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hoşgeldiniz</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#kimiz">Kimiz</a></li>
+        <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="kimiz">
+        <h2>Kimiz</h2>
+        <p>Biz XYZ şirketiyiz ve ...</p>
+      </section>
+      <section id="hizmetler">
+        <h2>Hizmetlerimiz</h2>
+        <ul>
+          <li>Hizmet 1</li>
+          <li>Hizmet 2</li>
+          <li>Hizmet 3</li>
+        </ul>
+      </section>
+      <section id="iletisim">
+        <h2>İletişim</h2>
+        <form action="submit.php" method="post">
+          <label for="ad">Ad:</label>
+          <input type="text" id="ad" name="ad"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="mesaj">Mesaj:</label>
+          <textarea id="mesaj" name="mesaj"></textarea><br><br>
+          <input type="submit" value="Gönder">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2022 XYZ Şirketi</p>
+    </footer>
+  </body>
+</html>
