@@ -1,23 +1,14 @@
-const welcomeScreen = document.getElementById("welcome-screen");
-const aboutButton = document.getElementById("about-button");
-const contactButton = document.getElementById("contact-button");
-const addressButton = document.getElementById("address-button");
-
-const aboutContent = document.getElementById("about-content");
-const contactContent = document.getElementById("contact-content");
-const addressContent = document.getElementById("address-content");
-
-aboutButton.addEventListener("click", function() {
-  welcomeScreen.style.display = "none";
-  aboutContent.style.display = "block";
+document.getElementById("about-btn").addEventListener("click", function() {
+  document.getElementById("welcome").style.display = "none";
+  document.getElementById("content").innerHTML = "<h2>Hakkında</h2><p>Samsun Anadolu Lisesi hakkında bilgi yer alacak...</p>";
 });
 
-contactButton.addEventListener("click", function() {
-  welcomeScreen.style.display = "none";
-  contactContent.style.display = "block";
+document.getElementById("contact-btn").addEventListener("click", function() {
+  document.getElementById("welcome").style.display = "none";
+  document.getElementById("content").innerHTML = "<h2>İletişim</h2><p>Samsun Anadolu Lisesi iletişim bilgileri yer alacak...</p>";
 });
 
-addressButton.addEventListener("click", function() {
-  welcomeScreen.style.display = "none";
-  addressContent.style.display = "block";
+document.getElementById("address-btn").addEventListener("click", function() {
+  document.getElementById("welcome").style.display = "none";
+  document.getElementById("content").innerHTML = "<h2>Adres</h2><p>Samsun Anadolu Lisesi adres bilgileri yer alacak...</p>";
 });
