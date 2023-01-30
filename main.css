@@ -38,3 +38,24 @@ main {
 
 section {
   width: 30%;
+  padding: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section form label,
+section form input,
+section form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
