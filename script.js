@@ -1,6 +1,6 @@
 document.getElementById("about-btn").addEventListener("click", function() {
   document.getElementById("welcome").style.display = "none";
-  document.getElementById("content").innerHTML = "<h2>Hakkında</h2><p>Samsun Anadolu Lisesi hakkında bilgi yer alacak...</p>";
+  document.getElementById("content").innerHTML = "<h2>Hakkında</h2><p>Chill Dublaj</p>";
 });
 
 document.getElementById("contact-btn").addEventListener("click", function() {
